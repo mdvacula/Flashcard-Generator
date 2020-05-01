@@ -4,7 +4,9 @@
   "description": "Cloze case flashcard generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/mdvacula/Flashcard-Generator#readme",
   "dependencies": {
-    "inquirer": "^3.2.1"
-  }
+    "inquirer": "^3.2.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }

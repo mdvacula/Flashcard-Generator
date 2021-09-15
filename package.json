@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mdvacula/Flashcard-Generator#readme",
   "dependencies": {
-    "inquirer": "^3.2.1"
+    "inquirer": "^7.0.5"
   }
 }
